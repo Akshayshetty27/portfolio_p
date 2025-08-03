@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshay Shetty | Full-Stack Developer & Problem Solver</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <!-- <span class="logo">Akshay Shetty</span> -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Hello! I'm Akshay</h2>
+          <p id="typewriter"></p>
+          <p class="hero-sub">
+            A passionate developer focused on creating intuitive and impactful
+            digital experiences.
+          </p>
+          <a
+            class="resume-link"
+            href="requirements/Akshay_Resume.pdf"
+            target="_blank"
+            >📄 Download My Resume</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>
+          I'm Akshay, a Computer Science graduate turned full-stack developer.
+          My coding journey began with curiosity and turned into a purpose: to
+          build thoughtful, scalable solutions using modern web technologies.
+        </p>
+        <p>
+          Skilled in the MERN stack and open to exploring new tools, I enjoy
+          designing clean front-ends and writing efficient back-end logic.
+          Whether it’s building an app from scratch or collaborating in a team,
+          I bring energy, creativity, and attention to detail.
+        </p>
+        <p>
+          Beyond code, I mentor juniors, experiment with side projects, and dive
+          into the latest tech trends. I believe in lifelong learning, and my
+          mission is to grow with every line of code.
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills learned</h2>
+        <div id="skills-carousel" class="skills-grid"></div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects :</h2>
+        <div id="project-slider" class="project-slider">
+          <div class="project-slide active">
+            <h3>Pharma Secure <span class="tag">Final Year</span></h3>
+            <p>
+              Pharma Secure is a secure web application for encrypted file
+              transmission using AES encryption, crafted in Java with JSP and
+              deployed via Apache Tomcat. It streamlines confidential
+              communication for healthcare systems.
+            </p>
+          </div>
+          <div class="project-slide">
+            <h3>Blood Bank Management System</h3>
+            <p>
+              This PHP-MySQL based platform digitizes the blood donation and
+              inventory process. It enables admins to monitor supply, manage
+              donors, and fulfill urgent blood requests efficiently—bridging the
+              gap between donors and hospitals.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <h2>📜 Certifications</h2>
+        <ul class="cert-list">
+          <li>
+            <button onclick="showCert('cert1')">
+              Java Programming Certification
+            </button>
+          </li>
+          <li>
+            <button onclick="showCert('cert2')">
+              Pixel Perfection Workshop
+            </button>
+          </li>
+        </ul>
+        <div id="cert-display"></div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>📬 Let's Connect</h2>
+        <div class="contact-wrapper">
+          <p>
+            If you’re looking to build something impactful or just want to
+            discuss tech, feel free to reach out. I’m always excited to
+            collaborate or help out.
+          </p>
+
+          <div class="contact-info">
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:shettyakshay333@gmail.com"
+                >shettyakshay333@gmail.com</a
+              >
+            </p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+917899376851">+91 78993 76851</a>
+            </p>
+            <p class="contact-links">
+              <a
+                href="https://linkedin.com/in/akshay-shetty-b420b02b5"
+                target="_blank"
+                >🔗 LinkedIn</a
+              >
+              <span>|</span>
+              <a href="https://github.com/Akshayshetty27" target="_blank"
+                >💻 GitHub</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with purpose and passion by Akshay Shetty | © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
